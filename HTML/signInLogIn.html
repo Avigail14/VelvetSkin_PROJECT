@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+      <link rel="stylesheet" href="../css/signInLogIn.css"/>
+      <script src="../js/signInLogIn.js" defer></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+      </head>
+
+      <body>
+        <div id="main">
+             <div id="header1">
+            <p2> sign in</p2>
+          </div>
+        <div id="main" name="form1">
+          <h1 class="text1">Enter your Email</h1>
+          <input type= "email"  class="textbox" id="email" placeholder="Email" required ><br >
+            <input type="submit" name="submit" value="Submit" class="signupbtn" onclick="ValidateEmail();"/>
+          <h1 class="text1"> Enter your password</h1>
+          <input type="password" id="password" class="input" required> <br>
+          <button type="submit" onclick=" CheckPassword();"id="submit"class="signupbtn ">Submit</button> 
+          <button type="submit" onclick="dictionaryPass(); storeInput(); loginCheck();"id="submit"class="signupbtn ">Sign in</button>
+      </div>
+               <p id="demo"></p>
+               <p id="demo1"></p>
+        </div>
+        </div>
+          </body>
+        
+</html>
