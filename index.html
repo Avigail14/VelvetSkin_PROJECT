@@ -7,7 +7,7 @@
   <title></title>
   <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="stylesheet" href="CSS/homePage.css">
-  <script src=""></script>
+  <script src="JS/homePage.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -34,17 +34,34 @@
     </ul>
   </nav>
 
-  <script>
-    function showSidebar(){
-      const sidebar = document.querySelector('.sidebar')
-      sidebar.style.display = 'flex'
-    }
-    function hideSidebar(){
-      const sidebar = document.querySelector('.sidebar')
-      sidebar.style.display = 'none'
-    }
 
+  <br>
+
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img class="pic1" src="IMAGES/ANUA_PROD.jpg">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img class="pic2" src="IMAGES/MEDIHEAL_PROD.jpg">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img class="pic3" src="IMAGES/skincare.jpg" style="width:100%">
+    </div>
     
-  </script>
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img class="pic4" src="img_lights_wide.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+  </div>
+
 </body>
 </html>
