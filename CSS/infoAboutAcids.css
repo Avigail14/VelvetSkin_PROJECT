@@ -1,0 +1,55 @@
+body{
+    background-image:url(https://static.vecteezy.com/system/resources/previews/016/349/917/non_2x/luxury-gold-and-pale-green-wallpaper-with-leaves-and-golden-lines-textured-beige-background-suitable-for-save-the-date-cards-invitations-and-wedding-modern-and-elegant-art-vector.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  display:flex;
+  font-family: 'Comfortaa', cursive;
+  /* justify-content:center; */
+}
+
+  #main{
+
+    display:flex;
+    flex-direction: row;
+    padding:20px;
+    width:600px;
+    text-align: center;
+  }
+
+  .block{
+    font-size:20px;
+    width:550px;
+    margin-top:10px;
+    margin:30px;
+    background-color:darkseagreen;
+    opacity: 50%;
+    padding: 20px;
+    text-align: center;
+    /* text-size-adjust: 30px; */
+    
+  }
+
+  .block:hover{
+    opacity:100%;
+  }
+
+  p1{
+   
+  }
+  #head{
+   align-self: center;
+    flex-direction:row;
+      position:absolute;
+      z-index: 1000;
+      width: 800px;
+      height:100px;
+      background-color: #284f33;
+      display: block;
+      top: 1em ;
+      size: 200px;
+      margin:80px;
+      color:rgb(255, 196, 145);
+  }
+  div{
+    margin-top:200px;
+  }
