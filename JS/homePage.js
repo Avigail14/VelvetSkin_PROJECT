@@ -8,6 +8,26 @@ function showSidebar(){
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -20,6 +40,7 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
+
   let i;
   let slides = Array.from(document.getElementsByClassName("mySlides"));
   let captionText = document.getElementById("caption");
@@ -28,7 +49,9 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-
-  slides[slideIndex-1].style.display = "block";
+  if(slides.length>1){
+    slides[slideIndex-1].style.display = "block";
+  } 
  
 }
+

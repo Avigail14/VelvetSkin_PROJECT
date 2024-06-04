@@ -109,18 +109,24 @@
     font-size: var(--fs-5);
   }
   
-  /*.container{
+  .container{
     
-  min-height: 100vh;
-  background: url('hero-banner-1.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
+    max-width: 95%;
+    min-height: 70vh;
+    height: auto;
+    background: url(../IMAGES/ANUA_PROD.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block; 
+    margin: auto;
+  /*background: url('../IMAGES/ANUA_PROD.jpg');
+  width: 100%;
+  height: 70vh;
   background-size: cover;
-  padding-top: 100px;
-  margin-top: 100px;
-  margin: auto;
-  width: 80%;
-  }  */
+  background-repeat: no-repeat;
+  background-position: center;*/
+  }  
 
 
   .h1_hero-title{
@@ -335,4 +341,72 @@ img {
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+
+
+.bgroundPic{
+  /*background-image: url('../IMAGES/331b2e99-5f7a-4e6d-b0e3-846628f3bd91.jpg');
+  background-size: 150px;
+  width: 300px;
+  height: 300px;
+  /*
+  height: 50vh;
+  max-width: 95%;
+  height: auto;
+  display: block; margin: auto;
+  */
+
+  max-width: 95%;
+  min-height: 70vh;
+  height: auto;
+  background: url(../IMAGES/331b2e99-5f7a-4e6d-b0e3-846628f3bd91.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block; 
+  margin: auto;
+  
+}
+
+/*.space{
+  margin-bottom: 5vw;
+}*/
+.bgroundText{
+  
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size:7vw;
+  margin-left: 2.5vw;
+  position:relative; 
+  top:20vh;
+
+  
+}
+
+.bgroundText2{
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 1.4vw;
+  margin-left: 2.5vw;
+  position:relative; 
+  top:22vh;
+  text-decoration: underline solid rgb(126, 151, 125) 5px;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+.column {
+  float: center;
+  max-width: 95%;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
