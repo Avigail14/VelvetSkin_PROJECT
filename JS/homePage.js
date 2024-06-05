@@ -55,3 +55,4 @@ function showSlides(n) {
  
 }
 
+//shop
