@@ -30,7 +30,7 @@
     align-items: center;
   }
   nav li{
-    height: 50px;
+    height: 70px;
   }
   nav a{
     height: 100%;
@@ -71,7 +71,7 @@
   .menu-button{
     display: none;
   }
-  @media(max-width: 800px){
+  @media(max-width: 890px){
     .hideOnMobile{
       display: none;
     }
@@ -84,6 +84,34 @@
       width: 100%;
     }
   }
+
+
+
+
+
+
+
+
+
+
+.logoWeb{
+  font-size: 30px;
+}
+
+.picMain{
+  height: 40px;
+  width: 40px;
+}
+
+
+
+
+
+/**/
+
+
+
+
 
 
   .hero { padding-block-start: 0; }
