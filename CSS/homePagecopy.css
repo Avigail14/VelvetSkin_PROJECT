@@ -329,9 +329,9 @@ body {
 .bgroundPic{
   
   max-width: 95%;
-  min-height: 60vh;
+  min-height: 70vh;
   height: auto;
-  background: url(../IMAGES/220421-wonyoung-x-innisfree-behind-the-scene-v0-fmzr1k9fisu81.jpg);
+  background: url(../IMAGES/jjj.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -356,17 +356,8 @@ body {
   margin-left: 2.5vw;
   position:relative; 
   top:17vh;
-  text-decoration: underline solid #ccc 5px;
+  text-decoration: underline solid #ac49f7 5px;
 }
-
-.bgroundText3{
-    font-family: 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    margin-left: 2.5vw;
-    position:relative; 
-    top:18vh;
-    
-  }
 
 * {
   box-sizing: border-box;
@@ -454,7 +445,7 @@ body {
 .btnmain{
   display: inline-block;
   padding: 8px 16px;
-  background-color: #ccc;
+  background-color: #ac49f7;
   text-decoration: none;
   border-radius: 4px;
   margin-top: 16px;
