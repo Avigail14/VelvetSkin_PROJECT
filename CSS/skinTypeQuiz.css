@@ -1,4 +1,45 @@
-
+/*.bgroundPic{
+  
+    max-width: 95%;
+    min-height: 70vh;
+    height: auto;
+    background: url
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block; 
+    margin: auto;
+    
+  }
+  
+  .bgroundText{
+    
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size:55px;
+    margin-left: 2.5vw;
+    position:relative; 
+    top:15vh;
+  
+    
+  }
+  .bgroundText2{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 2.5vw;
+    position:relative; 
+    top:17vh;
+    text-decoration: underline solid #ccc 5px;
+  }
+  
+  .bgroundText3{
+      font-family: 'Trebuchet MS', sans-serif;
+      font-size: 18px;
+      margin-left: 2.5vw;
+      position:relative; 
+      top:18vh;
+      
+    }*/
+  
 *{
     margin: 0;
     padding: 0;

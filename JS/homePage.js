@@ -66,5 +66,10 @@ function acidPage(){
   location.href="HTML/infoAboutAcids.html";}
 
 function loginPage(){
-  location.href="HTML/signInLogIn.html"
+  location.href="HTML/signInLogIn.html";
 }
+
+function shopPage(){
+  location.href="HTML/productsShop.html";
+}
+
