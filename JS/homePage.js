@@ -56,3 +56,15 @@ function showSlides(n) {
 }
 
 //shop
+
+
+
+
+//to other pages link
+
+function acidPage(){
+  location.href="HTML/infoAboutAcids.html";}
+
+function loginPage(){
+  location.href="HTML/signInLogIn.html"
+}

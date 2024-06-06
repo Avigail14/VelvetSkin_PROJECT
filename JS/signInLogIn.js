@@ -66,7 +66,7 @@ function ValidateEmail() {
 
 function nextPage(){
   
-  location.href="../html/homePage.html";
+  location.href="../index.html";
   // if(nextPageValidation==true){
   //  location.replace="../html/homePage.html"; 
 }
@@ -104,12 +104,12 @@ function storeInput() {
   if(valueEmail1== inputArray[0] && valuePassword2==inputArray[1]){
     window.alert("log in successfuly");
     nextPageValidation=true;
-    location.href="../html/homePage.html";
+    location.href="../index.html";
 }
    else if(inputArray.includes(valueEmail1)&& inputArray.includes(valuePassword2)){
        window.alert("log in successfuly");
        nextPageValidation=true;
-       location.href="../html/homePage.html"; 
+       location.href="../index.html"; 
     }
   }
 }
