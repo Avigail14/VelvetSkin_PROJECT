@@ -1,6 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500&display=swap');
 
+.imgabout{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ 
+}
+  
 
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+*div.gallery img {
+  width: 100%;
+  min-height: 200p;
+}
+
+div.desc {
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.responsive {
+  padding: 2.5% 3%;
+  float: left;
+  width: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 *{
     margin: 0;
     padding: 0;
@@ -329,9 +387,9 @@ body {
 .bgroundPic{
   
   max-width: 95%;
-  min-height: 60vh;
+  min-height: 25vh;
   height: auto;
-  background: url(../IMAGES/220421-wonyoung-x-innisfree-behind-the-scene-v0-fmzr1k9fisu81.jpg);
+  background: url(../IMAGES/6275c61f-12ab-41fd-ada5-5673d255a50d.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -403,7 +461,7 @@ body {
 }
 
 .card{
-  width: 325px;
+  width: 600px;
   background-color: #f0f0f0;
   border-radius: 8px;
   overflow: hidden;
@@ -414,8 +472,19 @@ body {
 .card img{
   width: 100%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  
 
 }
+
+.aboutusinfo{
+  text-decoration: underline solid #ecc6df 2px;
+  margin-bottom: 5px;
+}
+
 
 .card-content{
   padding: 16px;
