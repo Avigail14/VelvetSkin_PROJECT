@@ -1,5 +1,6 @@
 body{
-  background-image:url(https://static.vecteezy.com/system/resources/previews/016/349/917/non_2x/luxury-gold-and-pale-green-wallpaper-with-leaves-and-golden-lines-textured-beige-background-suitable-for-save-the-date-cards-invitations-and-wedding-modern-and-elegant-art-vector.jpg);
+  /* justify-content: center; */
+  background-image:url(https://image.slidesdocs.com/responsive-images/background/white-nature-leaf-natural-plant-beautiful-powerpoint-background_696ac76cd9__960_540.jpg);
   background-attachment: fixed;
   background-size: cover;
   display:flex;
@@ -9,11 +10,13 @@ body{
 
   #main{
 
+    margin-top:200px;
     display:flex;
     flex-direction: row;
     padding:20px;
     width:600px;
-    text-align: center;
+    justify-content:left;
+    /* text-align: center; */
   }
 
   .block{
@@ -21,6 +24,7 @@ body{
     width:550px;
     margin-top:10px;
     margin:30px;
+    color:#ffffff;
     background-color:darkseagreen;
     opacity: 50%;
     padding: 20px;
@@ -35,19 +39,111 @@ body{
 
  
   #head{
+    max-width: 100%;
+    
+    margin-left:100px;
+    margin-top:100px;
    align-self: center;
     flex-direction:row;
       position:absolute;
       z-index: 1000;
       width: 800px;
       height:100px;
-      background-color: #284f33;
+      background-color: #748d7a;
       display: block;
       top: 1em ;
       size: 200px;
-      margin:80px;
-      color:rgb(255, 196, 145);
+      /* margin:80px; */
+      color:rgb(255, 255, 255);
   }
   div{
     margin-top:200px;
   }
+
+
+
+
+  
+  nav{
+    position:absolute;
+    justify-content: center;
+    max-width: 100%;
+    width:100%;
+    /* width:auto; */
+    height:100px;
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav li{
+    height: 70px;
+  }
+  nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  nav a:hover{
+    background-color: #f0f0f0;
+  }
+
+  nav li:first-child{
+    margin-right: auto;
+  }
+  .sidebar{
+    position: fixed;
+    top: 0; 
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index:3;
+  }
+  .sidebar li{
+    width: 100%;
+  }
+  .sidebar a{
+    width: 100%;
+  }
+  .menu-button{
+    display: none;
+  }
+  @media(max-width: 890px){
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-button{
+      display: block;
+    }
+  }
+  @media(max-width: 400px){
+    .sidebar{
+      width: 100%;
+    }
+  }
+
+
+.logoWeb{
+  font-size: 30px;
+}
+
+.picMain{
+  height: 40px;
+  width: 40px;
+}
